@@ -4,7 +4,7 @@ from .models import Product, Contact, Orders , Orderupdate
 class ProductSerializer(serializers.ModelSerializer):
     class Meta:
         model = Product
-        fields = ('id','product_name','category','subcategory','price','desc','image')
+        fields = ('id','product_name','category','subcategory','price','desc','pub_date','image','image1','image2','image3')
 
 
 class ContactSerializers(serializers.ModelSerializer):

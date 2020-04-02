@@ -9,6 +9,9 @@ class Product(models.Model):
     desc = models.CharField(max_length=300)
     pub_date = models.DateField()
     image = models.ImageField(upload_to="shop/images", default="")
+    image1 = models.ImageField(upload_to="shop/images", default="")
+    image2 = models.ImageField(upload_to="shop/images", default="")
+    image3 = models.ImageField(upload_to="shop/images", default="")
 
     def __str__(self):
         return self.product_name

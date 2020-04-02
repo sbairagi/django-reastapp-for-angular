@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc798c65-7cf1-4e7e-adb3-caf9e9c6d927" name="Default Changelist" comment="" />
+    <list default="true" id="dc798c65-7cf1-4e7e-adb3-caf9e9c6d927" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gainer/migrations/0004_auto_20200402_0345.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/shop/images/download.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/shop/images/download_1.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/shop/images/download_1_E0xxYTG.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/shop/images/download_2.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/shop/images/download_3.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/shop/images/download_4.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/shop/images/download_5.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/shop/images/download_5_xxjKUQ3.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/shop/images/download_6.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/shop/images/download_6_MvO28yl.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/shop/images/download_7.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/shop/images/download_8.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/shop/images/download_CsLo0ex.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/shop/images/ecommerce-website.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/shop/images/images.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/shop/images/images_S6MHhxl.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/shop/images/woocommerce-plugin_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bodygainer/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bodygainer/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bodygainer/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bodygainer/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gainer/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/gainer/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gainer/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/gainer/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gainer/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/gainer/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gainer/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gainer/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gainer/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gainer/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/images/download_7.jfif" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +45,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZkgBLMoppCBsXmHIIoOPYcVCNN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mac" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -78,5 +115,32 @@
       <updated>1585388379311</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gainer/views.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -14,12 +14,22 @@ def product_list(request):
         serializer = ProductSerializer(obj , many=True)
         return Response(serializer.data)
 
+@api_view(['GET'])
+def prodview(request,myid):
+    try:
+        obj = Product.objects.get(id=myid)
+    except Product.DoesNotExist:
+        return Response(status=status.HTTP_400_BAD_REQUEST)
+    if request.method == 'GET':
+        serializers = ProductSerializer(obj)
+        return Response(serializers.data)
 
 @api_view(['POST'])
 def contact_us(request):
     if request.method == 'POST':
         serializers = ContactSerializers(data=request.data)
         if serializers.is_valid():
+            print(serializers)
             serializers.save()
             return Response(serializers.data, status=status.HTTP_201_CREATED)
         return Response(serializers.errors, status=status.HTTP_400_BAD_REQUEST)
